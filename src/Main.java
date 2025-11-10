@@ -39,7 +39,7 @@ public class Main {
 
             //reads from conversion rates and the conversion rate from base currency
             //CHANGE THE 3 LETTER CODE TO WHAT COUNTRY'S CURRENCY YOU WOULD LIKE TO USE. (google a countries 3 letter currency code)
-            double money = object.getAsJsonObject("conversion_rates").get("VND").getAsDouble();
+            double money = object.getAsJsonObject("conversion_rates").get("PUT 3 LETTER CODE HERE").getAsDouble();
 
             //displays conversion
             System.out.println("Base Currency: " + base);
